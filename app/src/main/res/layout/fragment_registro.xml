@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tabs.registro">
+
+
+    <FrameLayout
+        android:id="@+id/flafterRegister"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/red"
+        tools:ignore="DuplicateIds">
+
+
+        <TextView
+            android:id="@+id/txtNameForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Hola Samir"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="39dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/flRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="174dp"
+            android:layout_height="166dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/sa" />
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="630dp"
+            android:layout_marginTop="100dp">
+
+            <!-- Nombre -->
+
+            <EditText
+                android:id="@+id/txbName"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="Introduce tu nombre..."
+                android:layout_marginTop="93dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="23dp" />
+
+            <!-- Apellido -->
+
+            <EditText
+                android:id="@+id/txbLastName"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="Introduce tu apellido..."
+                android:layout_marginTop="162dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="23dp" />
+
+            <!-- Telefono -->
+
+            <EditText
+                android:id="@+id/txbTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="Introduce tu telefono..."
+                android:layout_marginTop="232dp"
+                android:ems="10"
+                android:inputType="phone"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="23dp" />
+
+            <!-- Email -->
+
+            <EditText
+                android:id="@+id/txbEmail"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="Introduce tu email..."
+                android:layout_marginTop="302dp"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="23dp" />
+
+            <!-- Password1 -->
+
+            <EditText
+                android:id="@+id/txbPassword1"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="Introduce tu contraseña..."
+                android:layout_marginTop="372dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="23dp" />
+
+            <!-- Password2 -->
+
+            <EditText
+                android:id="@+id/txbPassword2"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="Confirma tu contraseña..."
+                android:layout_marginTop="442dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="23dp" />
+
+            <Button
+                android:id="@+id/btnRegistrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="550dp"
+                android:textSize="30dp"
+                android:text="REGISTRARSE"/>
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/flafterRegister2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="200dp"
+            android:background="@color/red">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text='¡Ya estas registrado! \n\n Puedes ver tu informacion registrada pulsando el boton \n\n"Ver Informacion"'
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="37dp" />
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/btnVerInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="650dp"
+            android:textSize="30dp"
+            android:text="Ver Informacion" />
+
+    </FrameLayout>
+
+
+</FrameLayout>

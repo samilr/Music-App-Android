@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"
@@ -33,16 +35,16 @@
             android:id="@+id/tabCanciones"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="CANCIONES" />
+            android:text="MUSICA" />
 
 
     </com.google.android.material.tabs.TabLayout>
 
     <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/viewpager"
-        android:layout_below="@id/tabLayout"/>
+        android:layout_below="@id/tabLayout" />
 
 
 </RelativeLayout>

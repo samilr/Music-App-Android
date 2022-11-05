@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_surface">
+
+    <FrameLayout
+        android:layout_width="414dp"
+        android:layout_height="683dp">
+
+        <FrameLayout
+            android:layout_width="280dp"
+            android:layout_height="270dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="60dp"
+            android:background="@color/red">
+
+            <ImageView
+                android:layout_margin="5dp"
+                android:id="@+id/imageView"
+                android:layout_width="270dp"
+                android:layout_height="270dp"
+                app:srcCompat="@drawable/yo" />
+        </FrameLayout>
+
+
+
+        <FrameLayout
+            android:layout_width="363dp"
+            android:layout_height="324dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/red">
+
+
+            <TextView
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:text="Nombre:"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="30dp"
+                android:text="Samir Gonzalez"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="90dp"
+                android:text="Asignatura:"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="90dp"
+                android:text="Movil"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="150dp"
+                android:text="Institucion:"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="150dp"
+                android:text="ITLA"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="210dp"
+                android:text="Email:"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="210dp"
+                android:text="31sg@gmail.com"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="270dp"
+                android:text="Ubicacion:"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="270dp"
+                android:text="Santo Domingo, R.D"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

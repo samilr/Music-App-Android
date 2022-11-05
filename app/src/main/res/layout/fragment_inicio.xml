@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tabs.inicio">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="314dp"
+        android:layout_height="400dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="15dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@color/red">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textAlignment="center"
+            android:text="¡PRUEBA LA NAVEGACION ENTRE VENTANAS! \n\n REGISTRATE PARA OBTENER UNA EXPERIENCIA MAS PERSONALIZADA">
+        </TextView>
+
+    </FrameLayout>
+
+</FrameLayout>
